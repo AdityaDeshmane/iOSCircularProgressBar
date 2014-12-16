@@ -39,7 +39,6 @@ Circular Style Progress Bar
 #import "ADCircularProgressView.h"
 
 
-
 //2. CREATING INSTANCE OF CONTROL
 _adCircularProgressView = [[ADCircularProgressView alloc] initWithFrame:_viewForCircularProgress.bounds];//use whichever you want to set as frame (i adding it over view _viewForCircularProgress, so setting it's bound as frame)
 
