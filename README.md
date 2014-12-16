@@ -41,13 +41,10 @@ Circular Style Progress Bar
 
 
 //2. CREATING INSTANCE OF CONTROL
-
-
    _adCircularProgressView = [[ADCircularProgressView alloc] initWithFrame:_viewForCircularProgress.bounds];//use whichever you want to set as frame (i adding it over view _viewForCircularProgress, so setting it's bound as frame)
 
 
 //3. UPDATING PROGRESS PERCENT
-
     [_adCircularProgressView updatePecentage:_iPercentageToShow];//pass any int between 0-100
     
 
@@ -68,6 +65,7 @@ ADCircularProgressView works on iOS 5.0 & above versions and is compatible with 
 
 * XCode : Developed using 6.1
 * Base sdk used while development : 8.1
+
 ---
 ---
 
