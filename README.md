@@ -41,12 +41,16 @@ Circular Style Progress Bar
 
 
 //2. CREATING INSTANCE OF CONTROL
-   _adCircularProgressView = [[ADCircularProgressView alloc] initWithFrame:_viewForCircularProgress.bounds];//use whichever you want to set as frame (i adding it over view _viewForCircularProgress, so setting it's bound as frame)
+_adCircularProgressView = [[ADCircularProgressView alloc] initWithFrame:_viewForCircularProgress.bounds];//use whichever you want to set as frame (i adding it over view _viewForCircularProgress, so setting it's bound as frame)
 
 
-//3. UPDATING PROGRESS PERCENT
-    [_adCircularProgressView updatePecentage:_iPercentageToShow];//pass any int between 0-100
-    
+//3. ADD IT AS SUBVIEW
+[_viewForCircularProgress addSubview:_adCircularProgressView];
+
+
+//4. UPDATING PROGRESS PERCENT
+[_adCircularProgressView updatePecentage:_iPercentageToShow];//pass any int between 0-100
+   
 
 ```
 
